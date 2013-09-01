@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "vagrant-drush"
   spec.version       = Vagrant::Drush::VERSION
   spec.authors       = ["Bogdan Dziewierz"]
-  spec.email         = ["bogdan@appnovation.com"]
+  spec.email         = ["bogdan@gmail.com"]
   spec.description   = %q{TODO: Write a gem description}
   spec.summary       = %q{TODO: Write a gem summary}
   spec.homepage      = ""
