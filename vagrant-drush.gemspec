@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Vagrant::Drush::VERSION
   spec.authors       = ["Bogdan Dziewierz"]
   spec.email         = ["bogdan@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = "Lets one invoke Drush commands on the host machine and have them run on the guest."
+  spec.summary       = "Lets one invoke Drush commands on the host machine and have them run on the guest."
+  spec.homepage      = "https://github.com/bdziewierz/vagrant-drush"
   spec.license       = "GPL2"
 
   spec.files         = `git ls-files`.split($/)

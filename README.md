@@ -1,24 +1,20 @@
 # Vagrant::Drush
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'vagrant-drush'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install vagrant-drush
+Lets one invoke Drush commands on the host machine and have them run on the guest.
 
 ## Usage
 
-TODO: Write usage instructions here
+Install using standard Vagrant 1.1+ plugin installation methods.
+After installing, `vagrant drush` command becomes available.
+This command relies all drush subcommands to guest box. As such,
+it requires Drush to be installed on the guest box.
+
+```
+$ vagrant plugin install vagrant-drush
+...
+$ vagrant drush cc all -r /vagrant/site
+...
+```
 
 ## Contributing
 
