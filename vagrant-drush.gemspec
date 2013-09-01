@@ -1,13 +1,13 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'vagrant/drush/version'
+require 'vagrant-drush/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "vagrant-drush"
-  spec.version       = Vagrant::Drush::VERSION
+  spec.version       = VagrantPlugins::Drush::VERSION
   spec.authors       = ["Bogdan Dziewierz"]
-  spec.email         = ["bogdan@gmail.com"]
+  spec.email         = ["b.dziewierz@gmail.com"]
   spec.description   = "Lets one invoke Drush commands on the host machine and have them run on the guest."
   spec.summary       = "Lets one invoke Drush commands on the host machine and have them run on the guest."
   spec.homepage      = "https://github.com/bdziewierz/vagrant-drush"
